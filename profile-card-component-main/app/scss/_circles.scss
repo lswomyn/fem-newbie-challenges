@@ -1,0 +1,29 @@
+.main::before{
+  content: "";
+  background-image: url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  height: 50vh;
+  width: 50vw;
+}
+
+
+.main::after{
+    content: "";
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50vh;
+    width: 50vw;
+    
+  }
