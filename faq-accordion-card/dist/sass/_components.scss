@@ -1,8 +1,10 @@
 .image {
   content: url(/images/illustration-woman-online-mobile.svg);
   background: url(/images/bg-pattern-mobile.svg) no-repeat;
-  background-position: bottom right;
+  background-position: 84% 100%;
+  width: 100%;
   max-width: 300px;
+  padding-bottom: 0.5rem;
 }
 
 .faq {
